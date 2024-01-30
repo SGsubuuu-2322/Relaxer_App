@@ -16,4 +16,22 @@ body {
   overflow: hidden;
 }
 
+.container {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: scale(1);
+}
 
+.circle {
+  background-color: #010f1c;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
